@@ -25,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Usuario"
+            android:textColor="@color/orange_700"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginTop="16dp"/>
@@ -49,6 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cerrar Sesión"
+            android:backgroundTint="@color/orange_500"
             android:layout_marginTop="32dp"/>
     </LinearLayout>
 </FrameLayout>

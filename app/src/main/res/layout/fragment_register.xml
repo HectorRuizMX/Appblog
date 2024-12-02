@@ -14,7 +14,7 @@
     android:id="@+id/app_title"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Morningstar's Blog"
+    android:text="Morningstar's blog"
     android:textSize="28sp"
     android:textStyle="bold"
     android:textColor="@color/orange_700"
@@ -24,6 +24,7 @@
     android:id="@+id/text_input_layout_username"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:textColorHint="@color/orange_700"
     android:hint="Usuario"
     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -40,6 +41,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
+    android:textColorHint="@color/orange_700"
     android:hint="Correo Electrónico"
     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -55,6 +57,7 @@
     android:id="@+id/text_input_layout_pass"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:textColorHint="@color/orange_700"
     android:hint="Contraseña"
     app:passwordToggleEnabled="true"
     android:layout_marginTop="8dp"
@@ -73,6 +76,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:passwordToggleEnabled="true"
+    android:textColorHint="@color/orange_700"
     android:hint="Confirmar contraseña"
     android:layout_marginTop="8dp"
     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
